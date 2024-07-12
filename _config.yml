@@ -269,12 +269,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-toc
 
-toc:
-  min_level: 1
-  max_level: 6
-  ordered_list: false  
 
 # Sitemap settings
 defaults:
