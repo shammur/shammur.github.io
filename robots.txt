@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://shammur.github.io//sitemap.xml
