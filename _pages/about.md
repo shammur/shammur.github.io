@@ -27,6 +27,6 @@ I have received numerous awards and grants, including the NVIDIA Academic Hardwa
 
 I authored over 60 peer-reviewed publications in top-tier conferences and journals and played an active role in the research community by organizing shared tasks, challenges, and workshops, as well as serving on the committees of top-tier conferences and special interest groups.
 
-I co-founded the Bangla Language Processing ([BNLP](http://banglanlp.org)) Community and [MyVoice](http://myvoice.arabicspeech.org), a crowdsourced platform, designed to bridge the gaps between standard and dialectal Arabic resources. I am also maintaining the [ArabicSpeech](http://arabicspeech.org) Portal.
+I co-founded the Bangla Language Processing ([BNLP]([http://banglanlp.org])) Community and [MyVoice]([http://myvoice.arabicspeech.org]), a crowdsourced platform, designed to bridge the gaps between standard and dialectal Arabic resources. I am also maintaining the [ArabicSpeech]([http://arabicspeech.org]) Portal.
 
 
