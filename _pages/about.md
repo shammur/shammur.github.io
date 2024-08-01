@@ -5,11 +5,11 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Qatar Computing Research Institute
 
 profile:
-  - align: right
+  align: right
   image: Shammur.jpg
   content: about_shammur.md
   image_circular: false # crops the image to make it circular
-  more_info: >
+   more_info: >
     Qatar Computing Research Institute
 
 news: true # includes a list of news items
