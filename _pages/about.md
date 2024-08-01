@@ -4,9 +4,10 @@ title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Qatar Computing Research Institute
 
-profile:
+profiles:
   align: right
   image: Shammur.jpg
+  content: about_shammur.md
   image_circular: false # crops the image to make it circular
    more_info: >
     <p> Qatar Computing Research Institute </p>
