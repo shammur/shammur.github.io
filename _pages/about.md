@@ -2,9 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitles: 
-  -  "Conversational AI | Representation Learning | Spoken Language Processing"
-  -  "Qatar Computing Research Institute"
+subtitle: "Conversational AI | Representation Learning | Spoken Language Processing"
+  
 
 
 profile:
