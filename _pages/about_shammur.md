@@ -2,7 +2,7 @@ I am a scientist at Qatar Computing Research Institute. My research interest enc
 
 I specialize in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics.
 
-I am currently leading (PI) the [QVoice](https://link-url-here.org](http://qvoice.qcri.org) project, which empowers speakers—both native and non-native, children, and adults alike—to learn spoken Arabic, leveraging large multimodal AI models.
+I am currently leading (PI) the [QVoice](http://qvoice.qcri.org) project, which empowers speakers—both native and non-native, children, and adults alike—to learn spoken Arabic, leveraging large multimodal AI models.
 
 I have received numerous awards and grants, including the NVIDIA Academic Hardware Grant for my research in Simulating human language learning capabilities using DNN-based language models, a study that was also conducted as a part of the TRAILs project, funded by PRIN MIUR. As a key contributor to the EU-funded projects SENSEI and PortDial, I developed conversational models adept at understanding human conversation, facilitating automatic summarization and mental health screening.
 
