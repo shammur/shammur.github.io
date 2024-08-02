@@ -1,13 +1,12 @@
 ---
 layout: about
-title: "About"
-permalink: "/"
+title: about
+permalink: /
 subtitle: "Affiliations: Qatar Computing Research Institute"
 
 profiles:
   - align: right
-    image: "Shammur.jpg"
-    content: "about_einstein.md"
+    image: Shammur.jpg
     image_circular: false # crops the image to make it circular
     more_info: |
       Qatar Computing Research Institute
