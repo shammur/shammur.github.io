@@ -10,11 +10,8 @@ subtitles:
 profile:
   align: right
   image: Shammur.jpg
-  image_circular: false # crops the image to make it circular
-
+  
 social: true # includes social icons at the bottom of the page
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as selected={true}
 ---
 
 I am a scientist at Qatar Computing Research Institute. My research interest encompasses multilingual, multimodal, and multiview representation learning.
