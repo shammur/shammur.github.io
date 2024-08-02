@@ -7,7 +7,7 @@ subtitle: "Affiliations: Qatar Computing Research Institute"
 profiles:
   - align: right
     image: Shammur.jpg
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: |
       Qatar Computing Research Institute
 
