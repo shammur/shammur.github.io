@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+# gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -25,6 +26,7 @@ group :jekyll_plugins do
     gem 'faraday-retry'
     gem 'jekyll-toc'    
 end
+gem "webrick" 
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
