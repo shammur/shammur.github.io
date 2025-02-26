@@ -23,3 +23,40 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+// Custom styles
+.research-highlight {
+  color: #00509e !important;
+  font-weight: bold;
+}
+.research-dark-highlight {
+  color: #001f3f  !important;
+  font-weight: bold;
+}
+
+.research-red-color {
+  color: #FF0000 !important;
+}
+
+.inline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inline-list li {
+  display: inline;
+  margin-right: 10px;
+  color: #00509e;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Optionally, add bullets manually after each item except the last */
+.inline-list li:after {
+  content: " •";
+  margin-left: 10px;
+}
+
+.inline-list li:last-child:after {
+  content: "";
+}
