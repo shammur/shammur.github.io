@@ -50,6 +50,8 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/download-artifact@v4
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
 
   # Deployment job
   deploy:
