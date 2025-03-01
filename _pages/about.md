@@ -15,13 +15,6 @@ profile:
 news: true
 # social: true # includes social icons at the bottom of the page
 ---
-<!-- Download CV Button -->
-<div style="text-align: center; margin-top: 20px;">
-  <a href="assets/pdf/SAC_CV_format2.pdf" download style="text-decoration: none;">
-    <img src="assets/img/cv_icon.png" alt="Download CV" width="40" style="vertical-align: middle; margin-right: 10px;">
-    <span style="font-size: 18px; font-weight: bold;">Download CV</span>
-  </a>
-</div>
 
 <!-- <br> -->
 <!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
@@ -79,6 +72,16 @@ news: true
   <li> <a href="http://banglanlp.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/bnlp_logo.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">
    BNLP </a> </li>
   <li><a href="https://fanar.qa/en" target="_blank" style="color: inherit; text-decoration: none;"><img src="assets/img/as_icon.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"> ArabicSpeech </a></li> 
+
+<br>
+<!-- Download CV Button -->
+<div style="text-align: left; margin-top: 20px;">
+  <a href="assets/pdf/SAC_CV_format2.pdf" download style="text-decoration: none;">
+    <img src="assets/img/cv_icon.png" alt="Download CV" width="40" style="vertical-align: left; margin-right: 10px;">
+    <span style="font-size: 18px; font-weight: bold;">Download CV</span>
+  </a>
+</div>
+
 
 <br>
 <!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
