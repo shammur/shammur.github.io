@@ -15,6 +15,14 @@ profile:
 news: true
 # social: true # includes social icons at the bottom of the page
 ---
+<!-- Download CV Button -->
+<div style="text-align: center; margin-top: 20px;">
+  <a href="assets/pdf/SAC_CV_format2.pdf" download style="text-decoration: none;">
+    <img src="assets/img/cv_icon.png" alt="Download CV" width="40" style="vertical-align: middle; margin-right: 10px;">
+    <span style="font-size: 18px; font-weight: bold;">Download CV</span>
+  </a>
+</div>
+
 <!-- <br> -->
 <!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
 <span class="research-dark-highlight"> ⌜⌟ Research Scientist</span>, Qatar Computing Research Institute (QCRI)
@@ -61,14 +69,24 @@ news: true
   <li> <a href="http://qvoice.qcri.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/QV_logo_icon_app.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
    QVoice </a> </li>
   <li><a href="https://fanar.qa/en" target="_blank" style="color: inherit; text-decoration: none;"><img src="assets/img/fanar.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"> Fanar </a></li> 
-  <li><a href="https://github.com/qcri/LLMeBench" target="_blank" style="color: inherit; text-decoration: none;"> LLMeBench </a></li> 
+  <li><a href="https://github.com/qcri/LLMeBench" target="_blank" style="color: inherit; text-decoration: none;"> 
+  <img src="assets/img/LLemebench.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
+  LLMeBench </a></li> 
   <li><a href="" target="_blank" style="color: inherit; text-decoration: none;"> FaseehAI </a></li> 
+
+<span class="research-dark-highlight">🌐 Current Platforms:</span> 
+- <ul class="inline-list">
+  <li> <a href="http://banglanlp.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/bnlp_logo.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">
+   BNLP </a> </li>
+  <li><a href="https://fanar.qa/en" target="_blank" style="color: inherit; text-decoration: none;"><img src="assets/img/as_icon.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"> ArabicSpeech </a></li> 
 
 <br>
 <!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
 <span class="research-dark-highlight">👁️‍🗨️ Short Bio:</span> 
 
-Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics. She is currently the leading (PI) on the QVoice project, which empowers speakers—both native and non-native of all ages alike—to learn spoken Arabic. The QVoice project leverages adaptive speech technologies and multimodal feedback modules as its underlying technologies. Dr. Chowdhury has received numerous awards and grants, including the NVIDIA Academic Hardware Grant for her research in simulating human language learning capabilities using DNN-based language models, a study that was also conducted as a part of the TRAILs project, funded by PRIN MIUR. As a key contributor to the EU-funded projects SENSEI and PortDial, Dr. Chowdhury developed conversational models adept at understanding human conversation, facilitating automatic summarization and mental health screening. She authored over 60 peer-reviewed publications in top-tier conferences and journals and played an active role in the research community by organizing shared tasks, challenges, and workshops, as well as serving on the committees of top-tier conferences and special interest groups. She co-founded the Bangla Language Processing Community and MyVoice, a crowdsourced platform, designed to bridge the gaps between standard and dialectal Arabic resources.
+Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics. She is currently the leading the speech technology in Fanar - Arabic AI Large Language Model and also LPI on the QVoice project, which empowers speakers—both native and non-native of all ages alike—to learn spoken Arabic. 
+<!-- The QVoice project leverages adaptive speech technologies and multimodal feedback modules as its underlying technologies.  -->
+Dr. Chowdhury has received numerous awards and grants, including the NVIDIA Academic Hardware Grant for her research in simulating human language learning capabilities using DNN-based language models, a study that was also conducted as a part of the TRAILs project, funded by PRIN MIUR. As a key contributor to the EU-funded projects SENSEI and PortDial, Dr. Chowdhury developed conversational models adept at understanding human conversation, facilitating automatic summarization and mental health screening. She authored over 60 peer-reviewed publications in top-tier conferences and journals and played an active role in the research community by organizing shared tasks, challenges, and workshops, as well as serving on the committees of top-tier conferences and special interest groups. She co-founded the Bangla Language Processing Community and MyVoice, a crowdsourced platform, designed to bridge the gaps between standard and dialectal Arabic resources. 
 
 <!-- <br><br> -->
 <!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
