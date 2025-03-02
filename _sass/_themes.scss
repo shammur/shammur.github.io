@@ -2,7 +2,7 @@
  * Themes
  ******************************************************************************/
 @import "variables"; 
-@use "sass:color";
+// @use "sass:color";
 :root {
   --global-bg-color: #ffffff;
   --global-code-bg-color: #{$code-bg-color-light};
