@@ -2,11 +2,7 @@
 layout: about
 title: Home
 permalink: /
-# hero_subtitle: "Research Scientist | Arabic Language Technology"
 subtitle: "Conversational AI | Representation Learning | Spoken Language Processing | Natural Language Processing"
-
-  # - "Qatar Computing Research Institute"
-# subtitle2: "Qatar Computing Research Institute"
 
 profile:
   align: right
@@ -62,9 +58,15 @@ news: true
   <li> <a href="http://qvoice.qcri.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/QV_logo_icon_app.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
    QVoice </a> </li>
   <li><a href="https://fanar.qa/en" target="_blank" style="color: inherit; text-decoration: none;"><img src="assets/img/fanar.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"> Fanar </a></li> 
+
+  <li><a href="" target="_blank" style="color: inherit; text-decoration: none;"> 
+  <img src="assets/img/aura.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
+  AURA </a></li> 
+
   <li><a href="https://github.com/qcri/LLMeBench" target="_blank" style="color: inherit; text-decoration: none;"> 
   <img src="assets/img/LLemebench.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
   LLMeBench </a></li> 
+
   <li><a href="" target="_blank" style="color: inherit; text-decoration: none;"> FaseehAI </a></li> 
 
 <span class="research-dark-highlight">🌐 Current Platforms:</span> 
