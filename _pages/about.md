@@ -55,19 +55,20 @@ news: true
 <br>
 <span class="research-dark-highlight">🧩 Current Projects:</span> 
 - <ul class="inline-list">
-  <li> <a href="http://qvoice.qcri.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/QV_logo_icon_app.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
-   QVoice </a> </li>
   <li><a href="https://fanar.qa/en" target="_blank" style="color: inherit; text-decoration: none;"><img src="assets/img/fanar.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"> Fanar </a></li> 
 
   <li><a href="" target="_blank" style="color: inherit; text-decoration: none;"> 
   <img src="assets/img/aura.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
   AURA </a></li> 
-
+  <li> <a href="http://qvoice.qcri.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/QV_logo_icon_app.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
+ QVoice </a> </li>
   <li><a href="https://github.com/qcri/LLMeBench" target="_blank" style="color: inherit; text-decoration: none;"> 
   <img src="assets/img/LLemebench.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
   LLMeBench </a></li> 
 
-  <li><a href="" target="_blank" style="color: inherit; text-decoration: none;"> FaseehAI </a></li> 
+  <li><a href="" target="_blank" style="color: inherit; text-decoration: none;">
+  <img src="assets/img/RA_logo.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
+   FaseehAI </a></li> 
 
 <span class="research-dark-highlight">🌐 Current Platforms:</span> 
 - <ul class="inline-list">
