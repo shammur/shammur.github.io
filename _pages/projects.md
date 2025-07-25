@@ -5,7 +5,7 @@ permalink: /projects/
 description: Project List
 nav: true
 nav_order: 3
-display_categories: [work, fun, da_multilingual]
+display_categories: [Funded Projects, QCRI Projects, Past Projects]
 horizontal: false
 ---
 
