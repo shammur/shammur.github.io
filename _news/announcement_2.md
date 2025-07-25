@@ -1,14 +1,9 @@
 ---
 layout: post
-# title: A long announcement with details
-date: 2024-07-07 16:11:00-0400
-inline: true #false
+date: 2025-07-22 15:59:00-0400
+inline: true
 related_posts: false
 ---
-Check out our **ACL 2024** paper: <a href="https://openreview.net/pdf?id=Y7ZVLuwGpK"> Beyond Orthography: Automatic Recovery of Short Vowels and Dialectal Sounds in Arabic </a>
-
+CFP for Second Workshop on Bangla Language Processing is out!
+[Click here to view the CFP](https://blp-workshop.github.io/cfp)
 ---
-
-
-
-
