@@ -4,7 +4,7 @@ title: MultimodalXplain
 description: Interpreting Multimodal Deep Learning Models
 img: assets/img/MultimodalX.jpeg
 importance: 1
-category: QCRI Projects
+category: QCRI_Projects
 # related_publications: true
 # profiles:
 #   - align: left

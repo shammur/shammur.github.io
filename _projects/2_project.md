@@ -5,7 +5,7 @@ description: Spoken Arabic Language Learning platforms, with voice-enabled input
 img: assets/img/QV_logo_icon_app.png
 redirect: http://qvoice.qcri.org
 importance: 3
-category: QCRI Projects
+category: QCRI_Projects
 ---
 
 Every project has a beautiful feature showcase page.

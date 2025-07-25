@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Fanar
-description: Fanar is an Arabic AI Large Language Model developed by the Qatar Computing Research Institute. Sponsored by Qatari government through the Ministry of Communications and Information Technology.
-img: assets/img/fanar.png
-redirect: http://chat.fanar.qa
+title: TREiL
+description: Technologies for Research and Education in Linguistics --Linguistic between Theory and Machine Learning
+ and Distributional Semantics: Going Multilingual (PRIN, MUR funded project)
+img: assets/img/QV_logo_icon_app.png
+redirect: https://github.com/LiCo-TREiL/Computational-Ungrammaticality/
 importance: 3
-category: Funded_Projects
+category: Past_Projects
 ---
-
+PRIN programme
+Ministry of University and Research - MUR finances research projects 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.

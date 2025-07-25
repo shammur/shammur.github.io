@@ -5,7 +5,7 @@ description: A Flexible Framework for Accelerating LLMs Benchmarking for its Mul
 img: assets/img/LLemebench.png
 redirect: https://github.com/qcri/LLMeBench
 importance: 3
-category: QCRI Projects
+category: QCRI_Projects
 ---
 
 Every project has a beautiful feature showcase page.

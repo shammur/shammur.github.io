@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Fanar
-description: Fanar is an Arabic AI Large Language Model developed by the Qatar Computing Research Institute. Sponsored by Qatari government through the Ministry of Communications and Information Technology.
-img: assets/img/fanar.png
-redirect: http://chat.fanar.qa
+title: PortDial
+description: Language Resources for Portable Multilingual Spoken Dialogue Systems (EU funded project)
+img: assets/img/portdiallogo.png
+redirect: https://cordis.europa.eu/project/id/296170
 importance: 3
-category: Funded_Projects
+category: Past_Projects
 ---
 
 Every project has a beautiful feature showcase page.

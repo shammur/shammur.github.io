@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Fanar
-description: Fanar is an Arabic AI Large Language Model developed by the Qatar Computing Research Institute. Sponsored by Qatari government through the Ministry of Communications and Information Technology.
-img: assets/img/fanar.png
-redirect: http://chat.fanar.qa
+title: SENSEI
+description: Making Sense of Human - Human Conversation (EU funded project)
+img: assets/img/SENSEI.jpg
+redirect: http://www.sensei-conversation.eu
 importance: 3
-category: Funded_Projects
+category: Past_Projects
 ---
 
 Every project has a beautiful feature showcase page.

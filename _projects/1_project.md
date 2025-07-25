@@ -4,7 +4,7 @@ title: AURA — Adaptive Universal Representation for Audio
 description: Designing models for multilingual or multimodal audio tasks.
 img: assets/img/aura.png
 importance: 1
-category: QCRI Projects
+category: QCRI_Projects
 # related_publications: true
 profiles:
   - align: left
