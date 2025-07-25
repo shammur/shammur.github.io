@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: LLemebench
+description: A Flexible Framework for Accelerating LLMs Benchmarking for its Multimodal capabilities
+img: assets/img/LLemebench.png
+redirect: https://github.com/qcri/LLMeBench
 importance: 3
-category: fun
+category: QCRI Projects
 ---
 
 Every project has a beautiful feature showcase page.

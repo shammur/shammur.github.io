@@ -60,17 +60,21 @@ news: true
   <li><a href="" target="_blank" style="color: inherit; text-decoration: none;"> 
   <img src="assets/img/aura.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
   AURA </a></li> 
+
+  <li><a href="" target="_blank" style="color: inherit; text-decoration: none;">
+  <img src="assets/img/RA_logo.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
+   NAVIA </a></li> 
+
   <li> <a href="http://qvoice.qcri.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/QV_logo_icon_app.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
  QVoice </a> </li>
+
   <li><a href="https://github.com/qcri/LLMeBench" target="_blank" style="color: inherit; text-decoration: none;"> 
   <img src="assets/img/LLemebench.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
   LLMeBench </a></li> 
 
-  <li><a href="" target="_blank" style="color: inherit; text-decoration: none;">
-  <img src="assets/img/RA_logo.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
-   FaseehAI </a></li> 
+<!-- <span class="research-dark-highlight">🕰️ Past Projects:</span>  -->
 
-<span class="research-dark-highlight">🌐 Current Platforms:</span> 
+<span class="research-dark-highlight">🌐 Platforms:</span> 
 - <ul class="inline-list">
   <li> <a href="http://banglanlp.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/bnlp_logo.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">
    BNLP </a> </li>

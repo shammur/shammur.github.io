@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Fanar
-description: Fanar is an Arabic AI Large Language Model developed by the Qatar Computing Research Institute. Sponsored by Qatari government through the Ministry of Communications and Information Technology.
-img: assets/img/fanar.png
-redirect: http://chat.fanar.qa
+title: project 5
+description: a project with a background image
+img: assets/img/1.jpg
 importance: 3
-category: Funded Projects
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

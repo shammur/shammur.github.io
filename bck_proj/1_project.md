@@ -5,7 +5,7 @@ description: Designing models for multilingual or multimodal audio tasks.
 img: assets/img/aura.png
 importance: 1
 category: QCRI Projects
-# related_publications: true
+related_publications: true
 profiles:
   - align: left
     content: Multilingual ASR

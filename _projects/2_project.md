@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: QVoice
+description: Spoken Arabic Language Learning platforms, with voice-enabled input and interactive feedback systems
+img: assets/img/QV_logo_icon_app.png
+redirect: http://qvoice.qcri.org
+importance: 3
+category: QCRI Projects
 ---
 
 Every project has a beautiful feature showcase page.
