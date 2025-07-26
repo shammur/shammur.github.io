@@ -74,7 +74,7 @@ news: true
 
 <!-- <span class="research-dark-highlight">🕰️ Past Projects:</span>  -->
 
-<span class="research-dark-highlight">🌐 Platforms:</span> 
+<span class="research-dark-highlight"> 🌐 Platforms:</span> 
 - <ul class="inline-list">
   <li> <a href="http://banglanlp.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/bnlp_logo.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">
    BNLP </a> </li>
