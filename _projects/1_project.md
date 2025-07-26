@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AURA — Adaptive Universal Representation for Audio
+title: AURA — Audio Understanding & Representation Alignment
 description: Designing models for multilingual or multimodal audio tasks.
 img: assets/img/aura.png
 importance: 1
