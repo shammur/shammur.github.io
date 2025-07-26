@@ -3,7 +3,7 @@ layout: page
 title: TREiL
 description: Technologies for Research and Education in Linguistics --Linguistic between Theory and Machine Learning
  and Distributional Semantics: Going Multilingual (PRIN, MUR funded project)
-img: assets/img/QV_logo_icon_app.png
+img: assets/img/Treil.jpg
 redirect: https://github.com/LiCo-TREiL/Computational-Ungrammaticality/
 importance: 3
 category: Past_Projects
