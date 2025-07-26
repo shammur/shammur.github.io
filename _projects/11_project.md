@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Arabic Speech Recognition (ASR)
-description: Designing ASR models for Dialectal Arabic.
+title: Arabic Code-switching Speech Recognition
+description: Designing CS ASR models for Arabic.
 img: assets/img/dialectal_arabic.png
 importance: 1
 category: Past_Projects
