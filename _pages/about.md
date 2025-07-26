@@ -82,14 +82,19 @@ news: true
 
 <br>
 <!-- Download CV Button -->
-<div style="text-align: left; margin-top: 20px;">
+<!-- <div style="text-align: left; margin-top: 20px;">
   <a href="assets/pdf/SAC_CV_format2.pdf" download style="text-decoration: none;">
     <img src="assets/img/cv_icon.png" alt="Download CV" width="40" style="vertical-align: left; margin-right: 10px;">
     <span style="font-size: 18px; font-weight: bold;">Download CV</span>
   </a>
 </div>
-
-
+ -->
+<div style="text-align: left; margin-top: 20px;">
+  <a href="assets/pdf/SAC_CV_format2.pdf" target="_blank" style="text-decoration: none;">
+    <img src="assets/img/cv_icon.png" alt="View PDF" width="40" style="vertical-align: middle; margin-right: 10px;">
+    <span style="font-size: 18px; font-weight: bold;">View PDF</span>
+  </a>
+</div>
 <br>
 <!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
 <span class="research-dark-highlight">👁️‍🗨️ Short Bio:</span> 
