@@ -43,7 +43,7 @@ news: true
 <div style="text-align: left; margin-top: 20px;">
   <a href="assets/pdf/SAC_CV_format2.pdf" target="_blank" style="text-decoration: none;">
     <img src="assets/img/cv_icon.png" alt="View PDF" width="40" style="vertical-align: middle; margin-right: 10px;">
-    <span style="font-size: 18px; font-weight: bold;">View PDF</span>
+    <span style="font-size: 18px; font-weight: bold;">View CV</span>
   </a>
 </div>
 
@@ -90,7 +90,8 @@ She has authored over 60 peer-reviewed publications in top-tier conferences and 
     <span style="font-size: 18px; font-weight: bold;">Download CV</span>
   </a>
 </div> -->
-<div style="text-align: left; margin-top: 20px;">
+
+<!-- <div style="text-align: left; margin-top: 20px;">
   <a href="assets/pdf/SAC_CV_format2.pdf" target="_blank" style="text-decoration: none;">
     <img src="assets/img/cv_icon.png" alt="View PDF" width="40" style="vertical-align: middle; margin-right: 10px;">
     <span style="font-size: 18px; font-weight: bold;">View PDF</span>
@@ -103,4 +104,4 @@ She has authored over 60 peer-reviewed publications in top-tier conferences and 
 
 Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics. She is currently leading the speech technology development in Fanar — QCRI's Arabic Large Language Model project (sponsored by Qatar Government) — and serves as the Lead PI on both the NAVIA (funded by SRG3) and QVoice projects. 
 She has authored over 60 peer-reviewed publications in top-tier conferences and journals and is deeply engaged in the research community through organizing shared tasks, challenges, and workshops, and serving on the committees of leading conferences and special interest groups. She is also the co-founder of the Bangla Language Processing Community and MyVoice, a crowdsourced platform aimed at bridging the gap between standard and dialectal Arabic language resources.
-
+ -->
