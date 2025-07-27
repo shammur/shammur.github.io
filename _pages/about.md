@@ -52,6 +52,21 @@ news: true
 
 ---
 
+<div style="text-align: left; margin-top: 20px;">
+  <a href="assets/pdf/SAC_CV_format2.pdf" target="_blank" style="text-decoration: none;">
+    <img src="assets/img/cv_icon.png" alt="View PDF" width="40" style="vertical-align: middle; margin-right: 10px;">
+    <span style="font-size: 18px; font-weight: bold;">View PDF</span>
+  </a>
+</div>
+<br>
+<!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
+<span class="research-dark-highlight">👁️‍🗨️ Short Bio:</span> 
+
+Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics. She is currently leading the speech technology development in Fanar — QCRI's Arabic Large Language Model project (sponsored by Qatar Government) — and serves as the Lead PI on both the NAVIA (funded by SRG3) and QVoice projects. 
+<!-- The NAVIA project pioneers a holistic framework for early screening and intervention for Autism Spectrum Disorder (ASD) by integrating multimodal AI technologies. The QVoice project empowers both native and non-native speakers of all ages to learn spoken Arabic through adaptive speech technologies and multimodal feedback systems. -->
+<!-- Dr. Chowdhury has received numerous awards and grants, including the SRG Grant for her research on simulating human language learning using deep neural network-based language models, a study also supported by the TRAILs project funded by PRIN MIUR. She has been a key contributor to EU-funded projects such as SENSEI and PortDial, where she developed conversational models for understanding human dialogue, automatic summarization, and mental health screening. -->
+She has authored over 60 peer-reviewed publications in top-tier conferences and journals and is deeply engaged in the research community through organizing shared tasks, challenges, and workshops, and serving on the committees of leading conferences and special interest groups. She is also the co-founder of the Bangla Language Processing Community and MyVoice, a crowdsourced platform aimed at bridging the gap between standard and dialectal Arabic language resources.
+
 <br>
 <span class="research-dark-highlight">🧩 Current Projects:</span> 
 - <ul class="inline-list">
@@ -89,20 +104,7 @@ news: true
   </a>
 </div>
  -->
-<div style="text-align: left; margin-top: 20px;">
-  <a href="assets/pdf/SAC_CV_format2.pdf" target="_blank" style="text-decoration: none;">
-    <img src="assets/img/cv_icon.png" alt="View PDF" width="40" style="vertical-align: middle; margin-right: 10px;">
-    <span style="font-size: 18px; font-weight: bold;">View PDF</span>
-  </a>
-</div>
-<br>
-<!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
-<span class="research-dark-highlight">👁️‍🗨️ Short Bio:</span> 
 
-Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics. She is currently leading the speech technology development in Fanar — QCRI's Arabic Large Language Model project (sponsored by Qatar Government) — and serves as the Lead PI on both the NAVIA (funded by SRG3) and QVoice projects. 
-<!-- The NAVIA project pioneers a holistic framework for early screening and intervention for Autism Spectrum Disorder (ASD) by integrating multimodal AI technologies. The QVoice project empowers both native and non-native speakers of all ages to learn spoken Arabic through adaptive speech technologies and multimodal feedback systems. -->
-<!-- Dr. Chowdhury has received numerous awards and grants, including the SRG Grant for her research on simulating human language learning using deep neural network-based language models, a study also supported by the TRAILs project funded by PRIN MIUR. She has been a key contributor to EU-funded projects such as SENSEI and PortDial, where she developed conversational models for understanding human dialogue, automatic summarization, and mental health screening. -->
-She has authored over 60 peer-reviewed publications in top-tier conferences and journals and is deeply engaged in the research community through organizing shared tasks, challenges, and workshops, and serving on the committees of leading conferences and special interest groups. She is also the co-founder of the Bangla Language Processing Community and MyVoice, a crowdsourced platform aimed at bridging the gap between standard and dialectal Arabic language resources.
 
 <!-- Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics. She is currently the leading the speech technology in Fanar - Arabic AI Large Language Model and also LPI on the NAVIA and QVoice project, which empowers speakers—both native and non-native of all ages alike—to learn spoken Arabic. 
 <!-- The QVoice project leverages adaptive speech technologies and multimodal feedback modules as its underlying technologies.  -->
