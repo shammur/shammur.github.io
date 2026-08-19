@@ -334,9 +334,24 @@
 
     <!-- Hidden bibtex block -->
     <div class="bibtex hidden">
-      {% highlight bibtex %}
-      {{- entry.bibtex | hideCustomBibtex -}}
-      {% endhighlight %}
+      <figure class="highlight">
+        <pre><code class="language-bibtex">@{{ entry.type }}{ {{- entry.key -}},
+  title = { {{- entry.title -}} }{% if entry.author %},
+  author = { {{- entry.author -}} }{% endif %}{% if entry.journal %},
+  journal = { {{- entry.journal -}} }{% endif %}{% if entry.booktitle %},
+  booktitle = { {{- entry.booktitle -}} }{% endif %}{% if entry.school %},
+  school = { {{- entry.school -}} }{% endif %}{% if entry.publisher %},
+  publisher = { {{- entry.publisher -}} }{% endif %}{% if entry.volume %},
+  volume = { {{- entry.volume -}} }{% endif %}{% if entry.number %},
+  number = { {{- entry.number -}} }{% endif %}{% if entry.pages %},
+  pages = { {{- entry.pages -}} }{% endif %}{% if entry.month %},
+  month = { {{- entry.month -}} }{% endif %}{% if entry.year %},
+  year = { {{- entry.year -}} }{% endif %}{% if entry.doi %},
+  doi = { {{- entry.doi -}} }{% endif %}{% if entry.url %},
+  url = { {{- entry.url -}} }{% endif %}{% if entry.arxiv %},
+  arxiv = { {{- entry.arxiv -}} }{% endif %}
+}</code></pre>
+      </figure>
     </div>
 
     {% if entry.video and site.enable_video_embedding %}
