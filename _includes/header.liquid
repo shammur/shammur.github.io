@@ -53,6 +53,9 @@
           <li class="nav-item {% if current_url == '/cv/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/cv/' | relative_url }}">CV</a>
           </li>
+          <li class="nav-item {% if current_url == '/contact/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/contact/' | relative_url }}">Contact</a>
+          </li>
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

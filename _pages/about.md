@@ -33,25 +33,20 @@ description: "Research Scientist at Qatar Computing Research Institute working o
   <section id="research" class="home-section" aria-labelledby="research-title">
     <div class="section-heading">
       <p class="eyebrow">Research Interest & Expertise</p>
-      <h2 id="research-title">Multilingual, Multimodal, and Inclusive Conversational AI</h2>
+      <h2 id="research-title">Research Interests</h2>
     </div>
-    <div class="theme-grid">
-      <article>
-        <h3>Conversational AI</h3>
-        <p>Modeling real-world human interaction, including multispeaker conversations, turn-taking, overlap, discourse structure, code-switching, and atypical communication.</p>
-      </article>
-      <article>
-        <h3>Speech & Audio Intelligence</h3>
-        <p>Building speech and audio models for spoken language understanding, AudioLLMs, discrete speech representations, robust ASR, and expressive voice technologies.</p>
-      </article>
-      <article>
-        <h3>Multilingual NLP & Foundation Models</h3>
-        <p>Evaluating and adapting LLMs and multimodal models for low-resource languages, dialects, culturally grounded reasoning, benchmarking, and cross-modal grounding.</p>
-      </article>
-      <article>
-        <h3>Inclusive Speech Technology</h3>
-        <p>Designing speech technologies for dialectal and accented speech, children’s speech, pronunciation assessment, neurodiverse communication, interpretability, and bias analysis.</p>
-      </article>
+    <div class="interest-block">
+      <p>
+        My research focuses on conversational AI, speech and audio intelligence, and multilingual and multimodal
+        foundation models, with an emphasis on low-resource languages, Arabic and dialectal speech, and culturally
+        grounded evaluation.
+      </p>
+      <ul class="interest-list">
+        <li><strong>Conversational AI:</strong> multi-turn, multi-speaker, code-switched, and natural spoken interactions.</li>
+        <li><strong>Speech and audio AI:</strong> robust ASR, spoken language understanding, AudioLLMs, and expressive voice technologies.</li>
+        <li><strong>Multilingual and multimodal models:</strong> adaptation, benchmarking, and evaluation for underrepresented languages and cultures.</li>
+        <li><strong>Inclusive speech technology:</strong> tools for dialectal, accented, children’s, and neurodiverse communication.</li>
+      </ul>
     </div>
   </section>
 
@@ -147,7 +142,7 @@ description: "Research Scientist at Qatar Computing Research Institute working o
     </div>
     <div class="timeline-list">
       {% assign sorted_news = site.news | sort: 'date' | reverse %}
-      {% for item in sorted_news limit: 3 %}
+      {% for item in sorted_news limit: 4 %}
         <article>
           <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%d %b %Y" | upcase }}</time>
           <div>{{ item.content | markdownify }}</div>
@@ -156,11 +151,4 @@ description: "Research Scientist at Qatar Computing Research Institute working o
     </div>
   </section>
 
-  <section class="home-section contact-band" aria-labelledby="contact-title">
-    <div>
-      <p class="eyebrow">Contact</p>
-      <h2 id="contact-title">QCRI Speech, Conversational AI, and Multilingual AI</h2>
-    </div>
-    <a class="primary-link" href="mailto:shchowdhury@hbku.edu.qa">shchowdhury@hbku.edu.qa</a>
-  </section>
 </main>

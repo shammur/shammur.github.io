@@ -183,8 +183,7 @@ $max-content-width: {{site.max_width}};
   margin-bottom: 1.6rem;
 }
 
-.section-heading--split,
-.contact-band {
+.section-heading--split {
   display: flex;
   gap: 1rem;
   align-items: flex-end;
@@ -196,18 +195,40 @@ $max-content-width: {{site.max_width}};
   font-weight: 700;
 }
 
-.theme-grid,
 .featured-grid,
 .publication-list {
   display: grid;
   gap: 1rem;
 }
 
-.theme-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.interest-block {
+  max-width: 58rem;
+  color: #405066;
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 
-.theme-grid article,
+.interest-block p {
+  margin-bottom: 1rem;
+}
+
+.interest-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.interest-list li {
+  padding-left: 1rem;
+  border-left: 3px solid #1769aa;
+}
+
+.interest-list strong {
+  color: #102033;
+}
+
 .publication-list article,
 .two-column-section article {
   padding: 1.35rem;
@@ -216,7 +237,6 @@ $max-content-width: {{site.max_width}};
   background: var(--global-bg-color);
 }
 
-.theme-grid p,
 .feature-card p,
 .publication-list p,
 .two-column-section p {
@@ -298,8 +318,7 @@ $max-content-width: {{site.max_width}};
   line-height: 1.65;
 }
 
-.home-section--band,
-.contact-band {
+.home-section--band {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   border: 1px solid rgba(16, 32, 51, 0.12);
@@ -358,12 +377,18 @@ $max-content-width: {{site.max_width}};
   gap: 1rem;
 }
 
-.contact-band {
-  margin: 4.5rem 0 1rem;
+.contact-page {
+  max-width: 44rem;
 }
 
-.contact-band h2 {
-  max-width: 42rem;
+.contact-page p {
+  color: #405066;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.contact-affiliation {
+  margin-top: 1.5rem;
 }
 
 /* Projects page */
@@ -540,7 +565,7 @@ html[data-theme="dark"] .research-home h3 {
 
 html[data-theme="dark"] .hero-subtitle,
 html[data-theme="dark"] .hero-summary,
-html[data-theme="dark"] .theme-grid p,
+html[data-theme="dark"] .interest-block,
 html[data-theme="dark"] .feature-card p,
 html[data-theme="dark"] .publication-list p,
 html[data-theme="dark"] .grant-list p,
@@ -552,7 +577,11 @@ html[data-theme="dark"] .timeline-list div {
   color: #c5d0dc;
 }
 
-html[data-theme="dark"] .theme-grid article,
+html[data-theme="dark"] .interest-list strong,
+html[data-theme="dark"] .contact-page p {
+  color: #f2f6fb;
+}
+
 html[data-theme="dark"] .feature-card,
 html[data-theme="dark"] .publication-list article,
 html[data-theme="dark"] .grant-list article,
@@ -573,7 +602,6 @@ html[data-theme="dark"] .project-row__media {
 
 @media (max-width: 900px) {
   .research-hero,
-  .theme-grid,
   .featured-grid,
   .publication-list,
   .grant-list article,
@@ -610,8 +638,7 @@ html[data-theme="dark"] .project-row__media {
     white-space: normal;
   }
 
-  .section-heading--split,
-  .contact-band {
+  .section-heading--split {
     display: block;
   }
 
