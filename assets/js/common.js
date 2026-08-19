@@ -15,6 +15,32 @@ $(document).ready(function () {
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
   });
+  $("button.copy-bibtex").click(function () {
+    const button = this;
+    const bibtex = $(button).parent().parent().find(".bibtex.hidden").text().trim();
+
+    function markCopied() {
+      const originalText = button.innerText;
+      button.innerText = "Copied";
+      setTimeout(function () {
+        button.innerText = originalText;
+      }, 1600);
+    }
+
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(bibtex).then(markCopied);
+    } else {
+      const textarea = document.createElement("textarea");
+      textarea.value = bibtex;
+      textarea.style.position = "absolute";
+      textarea.style.left = "-9999px";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      textarea.remove();
+      markCopied();
+    }
+  });
   $("a").removeClass("waves-effect waves-light");
 
   // bootstrap-toc

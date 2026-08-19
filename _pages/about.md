@@ -1,107 +1,166 @@
 ---
-layout: about
-title: Home
+layout: default
+title: Shammur Absar Chowdhury
 permalink: /
-subtitle: "Conversational AI | Representation Learning | Spoken Language Processing | Natural Language Processing"
-
-profile:
-  align: right
-  image: Shammur_Chowdury_1.jpg
-  # image_circular: true
-news: true
-# social: true # includes social icons at the bottom of the page
+description: "Research Scientist at Qatar Computing Research Institute working on conversational AI, speech and audio AI, multilingual and multimodal AI, and inclusive speech technology."
 ---
 
-<!-- <br> -->
-<!-- <hr style="border: none; border-top: 2px solid grey; margin: 20px 0;"> -->
-<span class="research-dark-highlight"> ⌜⌟ Research Scientist</span>, Qatar Computing Research Institute (QCRI)
+<main class="research-home">
+  <section class="research-hero" aria-labelledby="home-title">
+    <div class="research-hero__copy">
+      <p class="eyebrow">Research Scientist · Qatar Computing Research Institute</p>
+      <h1 id="home-title">Shammur Absar Chowdhury</h1>
+      <p class="hero-subtitle">Conversational AI · Speech & Audio AI · Multilingual & Multimodal AI</p>
+      <p class="hero-summary">
+        Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as
+        multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other
+        intricate conversational dynamics. She is currently leading the speech technology development in Fanar — QCRI's
+        Arabic Large Language Model project — and serves as the Lead PI on both the NAVIA and QVoice projects.
+      </p>
+      <div class="hero-actions" aria-label="Profile links">
+        <a href="https://scholar.google.com/citations?hl=it&user=LkSfdoAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+        <a href="{{ '/assets/pdf/SAC_CV_format2.pdf' | relative_url }}">CV</a>
+        <a href="https://github.com/shammur">GitHub</a>
+        <a href="https://www.linkedin.com/in/shammurchowdhury/">LinkedIn</a>
+        <a href="mailto:shchowdhury@hbku.edu.qa">Email</a>
+      </div>
+    </div>
+    <figure class="research-hero__photo">
+      <img src="{{ '/assets/img/Shammur_Chowdury_1.jpg' | relative_url }}" alt="Shammur Absar Chowdhury">
+    </figure>
+  </section>
 
-<span class="research-dark-highlight"> 🗨️ Contact: </span> shchowdhury@hbku.edu.qa
+  <section id="research" class="home-section" aria-labelledby="research-title">
+    <div class="section-heading">
+      <p class="eyebrow">Research Interest & Expertise</p>
+      <h2 id="research-title">Multilingual, Multimodal, and Inclusive Conversational AI</h2>
+    </div>
+    <div class="theme-grid">
+      <article>
+        <h3>Conversational AI</h3>
+        <p>Modeling real-world human interaction, including multispeaker conversations, turn-taking, overlap, discourse structure, code-switching, and atypical communication.</p>
+      </article>
+      <article>
+        <h3>Speech & Audio Intelligence</h3>
+        <p>Building speech and audio models for spoken language understanding, AudioLLMs, discrete speech representations, robust ASR, and expressive voice technologies.</p>
+      </article>
+      <article>
+        <h3>Multilingual NLP & Foundation Models</h3>
+        <p>Evaluating and adapting LLMs and multimodal models for low-resource languages, dialects, culturally grounded reasoning, benchmarking, and cross-modal grounding.</p>
+      </article>
+      <article>
+        <h3>Inclusive Speech Technology</h3>
+        <p>Designing speech technologies for dialectal and accented speech, children’s speech, pronunciation assessment, neurodiverse communication, interpretability, and bias analysis.</p>
+      </article>
+    </div>
+  </section>
 
-<span class="research-dark-highlight">✍ Research Interest and Expertise:</span>
+  <section class="home-section" aria-labelledby="featured-research-title">
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="eyebrow">Featured Research</p>
+        <h2 id="featured-research-title">Current Projects</h2>
+      </div>
+      <a class="text-link" href="{{ '/projects/' | relative_url }}">Explore all projects</a>
+    </div>
+    <div class="featured-grid">
+      <article class="feature-card">
+        <img src="{{ '/assets/img/Fanar_full_croped.jpg' | relative_url }}" alt="">
+        <div>
+          <p class="card-kicker">FANAR</p>
+          <h3>Arabic Speech & Language Intelligence</h3>
+          <p>Speech lead for QCRI's Arabic LLM family, with a focus on dialectal Arabic, spoken language understanding, and multimodal feedback generation.</p>
+        </div>
+      </article>
+      <a class="feature-card" href="https://navia-ai-lab.github.io/index.html#home" target="_blank" rel="noopener">
+        <img src="{{ '/assets/img/navia_logo.png' | relative_url }}" alt="NAVIA logo">
+        <div>
+          <p class="card-kicker">NAVIA</p>
+          <h3>AI for Neurodiverse Communication</h3>
+          <p>Lead PI for an HBKU Flagship Research Grant on multimodal AI for early screening and intervention related to autism.</p>
+        </div>
+      </a>
+      <article class="feature-card">
+        <img src="{{ '/assets/img/aura.png' | relative_url }}" alt="">
+        <div>
+          <p class="card-kicker">AURA</p>
+          <h3>Audio Understanding & Representation Alignment</h3>
+          <p>Audio understanding and representation alignment across acoustic, semantic, and paralinguistic signals in multilingual and low-resource settings.</p>
+        </div>
+      </article>
+      <article class="feature-card">
+        <img src="{{ '/assets/img/QV_logo_icon_app.png' | relative_url }}" alt="">
+        <div>
+          <p class="card-kicker">QVoice</p>
+          <h3>Interactive Spoken Arabic Learning</h3>
+          <p>Lead PI for spoken Arabic language assessment platforms with voice-enabled input and interactive feedback for native and non-native learners.</p>
+        </div>
+      </article>
+    </div>
+  </section>
 
-- <span class="research-highlight">Speech Processing: </span>
-  Representation Learning, Self-Supervised Models, Atypical Human Interaction, Speech Discourse & Turn-taking, and Spoken Language Understanding.
+  <section class="home-section" aria-labelledby="grants-title">
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="eyebrow">Grants</p>
+        <h2 id="grants-title">Current Funded Research</h2>
+      </div>
+      <a class="text-link" href="{{ '/projects/' | relative_url }}">Related projects</a>
+    </div>
+    <div class="grant-list">
+      <article>
+        <div>
+          <p class="card-kicker">Lead PI · 2025–2027</p>
+          <h3>NAVIA: Neurodiversity Assessment and Voice-enabled Intervention AI</h3>
+        </div>
+        <p>HBKU Flagship Research Grant, HBKU-OVPR-FRG-03-09, USD 207,000 / 750,000 QAR.</p>
+      </article>
+      <article>
+        <div>
+          <p class="card-kicker">PI · 2026–2028</p>
+          <h3>MediaVoice: Emotion-Aware Arabic Voice Generation for Media</h3>
+        </div>
+        <p>QRDI-funded project on expressive Arabic voice generation for media applications.</p>
+      </article>
+      <article>
+        <div>
+          <p class="card-kicker">Speech Lead</p>
+          <h3>Fanar Arabic LLMs</h3>
+        </div>
+        <p>MCIT Qatar-sponsored Arabic LLM program, with speech understanding and multimodal feedback generation.</p>
+      </article>
+      <article>
+        <div>
+          <p class="card-kicker">Co-PI · 2025–2026</p>
+          <h3>Native, Local and Cultural Alignment in Multilingual and Multimodal LLMs</h3>
+        </div>
+        <p>AWS Build on Trainium support and QCRI collaboration for culturally grounded multilingual and multimodal AI.</p>
+      </article>
+    </div>
+  </section>
 
-- <span class="research-highlight">Natural Language Processing:</span>
- (Large) Language Models and their task understanding capabilities, Benchmarking.
-  <!-- Large Language Models and their multilingual and diaclectal task understanding capabilities. -->
+  <section class="home-section" aria-labelledby="updates-title">
+    <div class="section-heading section-heading--split">
+      <div>
+        <h2 id="updates-title">Latest Updates</h2>
+      </div>
+    </div>
+    <div class="timeline-list">
+      {% assign sorted_news = site.news | sort: 'date' | reverse %}
+      {% for item in sorted_news limit: 3 %}
+        <article>
+          <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%d %b %Y" | upcase }}</time>
+          <div>{{ item.content | markdownify }}</div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-- <span class="research-highlight">Explainable and Inclusive Speech Technology:</span>  
-  Dialectal and Accented Speech Recognition, Pronunciation Assessment, Children Speech Recognition, Multilingual Models.
-
-
----
-<br>
-<!-- Download CV Button -->
-<!-- <div style="text-align: left; margin-top: 20px;">
-  <a href="assets/pdf/SAC_CV_format2.pdf" download style="text-decoration: none;">
-    <img src="assets/img/cv_icon.png" alt="Download CV" width="40" style="vertical-align: left; margin-right: 10px;">
-    <span style="font-size: 18px; font-weight: bold;">Download CV</span>
-  </a>
-</div> -->
-<div style="text-align: left; margin-top: 20px;">
-  <a href="assets/pdf/SAC_CV_format2.pdf" target="_blank" style="text-decoration: none;">
-    <img src="assets/img/cv_icon.png" alt="View PDF" width="40" style="vertical-align: middle; margin-right: 10px;">
-    <span style="font-size: 18px; font-weight: bold;">View CV</span>
-  </a>
-</div>
-
-<br>
-
-<span class="research-dark-highlight">👁️‍🗨️ Short Bio:</span> 
-
-Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics. She is currently leading the speech technology development in Fanar — QCRI's Arabic Large Language Model project (sponsored by Qatar Government) — and serves as the Lead PI on both the NAVIA (funded by SRG3) and QVoice projects. 
-She has authored over 60 peer-reviewed publications in top-tier conferences and journals and is deeply engaged in the research community through organizing shared tasks, challenges, and workshops, and serving on the committees of leading conferences and special interest groups. She is also the co-founder of the Bangla Language Processing Community and MyVoice, a crowdsourced platform aimed at bridging the gap between standard and dialectal Arabic language resources.
-
-<br>
-<span class="research-dark-highlight">🧩 Current Projects:</span> 
-- <ul class="inline-list">
-  <li><a href="https://fanar.qa/en" target="_blank" style="color: inherit; text-decoration: none;"><img src="assets/img/fanar.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"> Fanar </a></li> 
-
-  <li><a href="" target="_blank" style="color: inherit; text-decoration: none;"> 
-  <img src="assets/img/aura.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
-  AURA </a></li> 
-
-  <li><a href="" target="_blank" style="color: inherit; text-decoration: none;">
-  <img src="assets/img/RA_logo.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
-   NAVIA </a></li> 
-
-  <li> <a href="http://qvoice.qcri.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/QV_logo_icon_app.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
- QVoice </a> </li>
-
-  <li><a href="https://github.com/qcri/LLMeBench" target="_blank" style="color: inherit; text-decoration: none;"> 
-  <img src="assets/img/LLemebench.png" alt="Logo" style="height: 30px; vertical-align: middle; margin-right: 5px;">
-  LLMeBench </a></li> 
-
-<!-- <span class="research-dark-highlight">🕰️ Past Projects:</span>  -->
-
-<span class="research-dark-highlight">🌐 Platforms:</span> 
-- <ul class="inline-list">
-  <li> <a href="http://banglanlp.org" target="_blank" style="color: inherit; text-decoration: none;"> <img src="assets/img/bnlp_logo.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;">
-   BNLP </a> </li>
-  <li><a href="https://fanar.qa/en" target="_blank" style="color: inherit; text-decoration: none;"><img src="assets/img/as_icon.png" alt="Logo" style="height: 20px; vertical-align: middle; margin-right: 5px;"> ArabicSpeech </a></li> 
-
-<br>
-<!-- Download CV Button -->
-<!-- <div style="text-align: left; margin-top: 20px;">
-  <a href="assets/pdf/SAC_CV_format2.pdf" download style="text-decoration: none;">
-    <img src="assets/img/cv_icon.png" alt="Download CV" width="40" style="vertical-align: left; margin-right: 10px;">
-    <span style="font-size: 18px; font-weight: bold;">Download CV</span>
-  </a>
-</div> -->
-
-<!-- <div style="text-align: left; margin-top: 20px;">
-  <a href="assets/pdf/SAC_CV_format2.pdf" target="_blank" style="text-decoration: none;">
-    <img src="assets/img/cv_icon.png" alt="View PDF" width="40" style="vertical-align: middle; margin-right: 10px;">
-    <span style="font-size: 18px; font-weight: bold;">View PDF</span>
-  </a>
-</div>
-
-<br>
-
-<span class="research-dark-highlight">👁️‍🗨️ Short Bio:</span> 
-
-Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other intricate conversational dynamics. She is currently leading the speech technology development in Fanar — QCRI's Arabic Large Language Model project (sponsored by Qatar Government) — and serves as the Lead PI on both the NAVIA (funded by SRG3) and QVoice projects. 
-She has authored over 60 peer-reviewed publications in top-tier conferences and journals and is deeply engaged in the research community through organizing shared tasks, challenges, and workshops, and serving on the committees of leading conferences and special interest groups. She is also the co-founder of the Bangla Language Processing Community and MyVoice, a crowdsourced platform aimed at bridging the gap between standard and dialectal Arabic language resources.
- -->
+  <section class="home-section contact-band" aria-labelledby="contact-title">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2 id="contact-title">QCRI Speech, Conversational AI, and Multilingual AI</h2>
+    </div>
+    <a class="primary-link" href="mailto:shchowdhury@hbku.edu.qa">shchowdhury@hbku.edu.qa</a>
+  </section>
+</main>

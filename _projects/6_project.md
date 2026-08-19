@@ -2,7 +2,8 @@
 layout: page
 title: NAVIA — Neurodiversity Assessment and Voice-enabled Intervention AI
 description: Design framework for early screening and intervention for Autism Spectrum Disorder (ASD) with multimodal AI technologies. .
-img: assets/img/RA_logo.png
+img: assets/img/navia_logo.png
+redirect: https://navia-ai-lab.github.io/index.html#home
 importance: 1
 category: Funded_Projects
 related_publications: false

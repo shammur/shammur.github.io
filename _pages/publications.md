@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-For more recent publications, see [Google Scholar](https://scholar.google.com/citations?hl=it&user=LkSfdoAAAAAJ&view_op=list_works&sortby=pubdate).
+Full publication list from the current CV bibliography. For the most recent citation metadata, see [Google Scholar](https://scholar.google.com/citations?hl=it&user=LkSfdoAAAAAJ&view_op=list_works&sortby=pubdate).
 <!-- _pages/publications.md -->
 
 {% if site.search_enabled %}
