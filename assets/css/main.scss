@@ -318,6 +318,29 @@ $max-content-width: {{site.max_width}};
   line-height: 1.65;
 }
 
+.hiring-card {
+  max-width: 58rem;
+  padding: 1.25rem;
+  border: 1px solid rgba(23, 105, 170, 0.28);
+  border-left: 4px solid #1769aa;
+  border-radius: 6px;
+  background: rgba(23, 105, 170, 0.04);
+}
+
+.hiring-section h2 {
+  font-size: 1.45rem;
+}
+
+.hiring-card p {
+  margin-bottom: 0;
+  color: #405066;
+  line-height: 1.65;
+}
+
+.hiring-card .card-kicker {
+  margin-bottom: 0.45rem;
+}
+
 .home-section--band {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
@@ -569,6 +592,7 @@ html[data-theme="dark"] .interest-block,
 html[data-theme="dark"] .feature-card p,
 html[data-theme="dark"] .publication-list p,
 html[data-theme="dark"] .grant-list p,
+html[data-theme="dark"] .hiring-card p,
 html[data-theme="dark"] .two-column-section p,
 html[data-theme="dark"] .projects-intro,
 html[data-theme="dark"] .project-row p,
@@ -585,6 +609,7 @@ html[data-theme="dark"] .contact-page p {
 html[data-theme="dark"] .feature-card,
 html[data-theme="dark"] .publication-list article,
 html[data-theme="dark"] .grant-list article,
+html[data-theme="dark"] .hiring-card,
 html[data-theme="dark"] .two-column-section article,
 html[data-theme="dark"] .project-row,
 html[data-theme="dark"] .talk-list article {

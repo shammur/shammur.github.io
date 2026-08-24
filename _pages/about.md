@@ -2,7 +2,7 @@
 layout: default
 title: Shammur Absar Chowdhury
 permalink: /
-description: "Research Scientist at Qatar Computing Research Institute working on conversational AI, speech and audio AI, multilingual and multimodal AI, and inclusive speech technology."
+description: "Research Scientist at Qatar Computing Research Institute working on conversational AI, speech processing, multilingual and multimodal AI, and inclusive speech technology."
 ---
 
 <main class="research-home">
@@ -10,7 +10,7 @@ description: "Research Scientist at Qatar Computing Research Institute working o
     <div class="research-hero__copy">
       <p class="eyebrow">Research Scientist · Qatar Computing Research Institute</p>
       <h1 id="home-title">Shammur Absar Chowdhury</h1>
-      <p class="hero-subtitle">Conversational AI · Speech & Audio AI · Multilingual & Multimodal AI</p>
+      <p class="hero-subtitle">Conversational AI · Speech Processing · Multilingual & Multimodal AI</p>
       <p class="hero-summary">
         Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as
         multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other
@@ -37,13 +37,13 @@ description: "Research Scientist at Qatar Computing Research Institute working o
     </div>
     <div class="interest-block">
       <p>
-        My research focuses on conversational AI, speech and audio intelligence, and multilingual and multimodal
+        My research focuses on conversational AI, speech processing, and multilingual and multimodal
         foundation models, with an emphasis on low-resource languages, Arabic and dialectal speech, and culturally
         grounded evaluation.
       </p>
       <ul class="interest-list">
         <li><strong>Conversational AI:</strong> multi-turn, multi-speaker, code-switched, and natural spoken interactions.</li>
-        <li><strong>Speech and audio AI:</strong> robust ASR, spoken language understanding, AudioLLMs, and expressive voice technologies.</li>
+        <li><strong>Speech Processing:</strong> robust ASR, spoken language understanding, AudioLLMs, and expressive voice technologies.</li>
         <li><strong>Multilingual and multimodal models:</strong> adaptation, benchmarking, and evaluation for underrepresented languages and cultures.</li>
         <li><strong>Inclusive speech technology:</strong> tools for dialectal, accented, children’s, and neurodiverse communication.</li>
       </ul>
@@ -108,7 +108,7 @@ description: "Research Scientist at Qatar Computing Research Institute working o
           <p class="card-kicker">Lead PI · 2025–2027</p>
           <h3>NAVIA: Neurodiversity Assessment and Voice-enabled Intervention AI</h3>
         </div>
-        <p>HBKU Flagship Research Grant, HBKU-OVPR-FRG-03-09, USD 207,000 / 750,000 QAR.</p>
+        <p>HBKU Flagship Research Grant, HBKU-OVPR-FRG-03-09.</p>
       </article>
       <article>
         <div>
@@ -134,6 +134,23 @@ description: "Research Scientist at Qatar Computing Research Institute working o
     </div>
   </section>
 
+  <section class="home-section hiring-section" aria-labelledby="hiring-title">
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="eyebrow">Hiring</p>
+        <h2 id="hiring-title">QCRI AURA Speech Team Is Hiring</h2>
+      </div>
+      <a class="text-link" href="mailto:shchowdhury@hbku.edu.qa">Get in touch</a>
+    </div>
+    <div class="hiring-card">
+      <p class="card-kicker">Postdocs · Interns · Research Assistants</p>
+      <p>
+        We are looking for researchers interested in speech processing, multilingual modeling, conversational AI,
+        and inclusive speech technology.
+      </p>
+    </div>
+  </section>
+
   <section class="home-section" aria-labelledby="updates-title">
     <div class="section-heading section-heading--split">
       <div>
@@ -142,11 +159,17 @@ description: "Research Scientist at Qatar Computing Research Institute working o
     </div>
     <div class="timeline-list">
       {% assign sorted_news = site.news | sort: 'date' | reverse %}
-      {% for item in sorted_news limit: 4 %}
-        <article>
-          <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%d %b %Y" | upcase }}</time>
-          <div>{{ item.content | markdownify }}</div>
-        </article>
+      {% assign shown_updates = 0 %}
+      {% for item in sorted_news %}
+        {% unless item.hiring %}
+          {% if shown_updates < 4 %}
+            <article>
+              <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%d %b %Y" | upcase }}</time>
+              <div>{{ item.content | markdownify }}</div>
+            </article>
+            {% assign shown_updates = shown_updates | plus: 1 %}
+          {% endif %}
+        {% endunless %}
       {% endfor %}
     </div>
   </section>
