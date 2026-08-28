@@ -50,6 +50,12 @@
           <li class="nav-item {% if current_url == '/talks/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/talks/' | relative_url }}">Talks & Shared Tasks</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/#hiring' | relative_url }}">Hiring</a>
+          </li>
+          <li class="nav-item {% if current_url == '/news/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/news/' | relative_url }}">News</a>
+          </li>
           <li class="nav-item {% if current_url == '/cv/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/cv/' | relative_url }}">CV</a>
           </li>

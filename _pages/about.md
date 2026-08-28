@@ -134,7 +134,7 @@ description: "Research Scientist at Qatar Computing Research Institute working o
     </div>
   </section>
 
-  <section class="home-section hiring-section" aria-labelledby="hiring-title">
+  <section id="hiring" class="home-section hiring-section" aria-labelledby="hiring-title">
     <div class="section-heading section-heading--split">
       <div>
         <p class="eyebrow">Hiring</p>
