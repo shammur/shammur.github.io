@@ -138,7 +138,7 @@ description: "Research Scientist at Qatar Computing Research Institute working o
     <div class="section-heading section-heading--split">
       <div>
         <p class="eyebrow">Hiring</p>
-        <h2 id="hiring-title">QCRI AURA Speech Team Is Hiring</h2>
+        <h2 id="hiring-title">QCRI Speech Team Is Hiring</h2>
       </div>
       <a class="text-link" href="mailto:shchowdhury@hbku.edu.qa">Get in touch</a>
     </div>
