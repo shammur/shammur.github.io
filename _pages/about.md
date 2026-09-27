@@ -43,9 +43,9 @@ description: "Research Scientist at Qatar Computing Research Institute working o
       </p>
       <ul class="interest-list">
         <li><strong>Conversational AI:</strong> multi-turn, multi-speaker, code-switched, and natural spoken interactions.</li>
-        <li><strong>Speech Processing:</strong> robust ASR, spoken language understanding, AudioLLMs, and expressive voice technologies.</li>
+        <li><strong>Speech Processing:</strong> robust ASR, spoken language understanding, and AudioLLMs.</li>
         <li><strong>Multilingual and multimodal models:</strong> adaptation, benchmarking, and evaluation for underrepresented languages and cultures.</li>
-        <li><strong>Inclusive speech technology:</strong> tools for dialectal, accented, children’s, and neurodiverse communication.</li>
+        <li><strong>Inclusive speech technology:</strong> Speech models for dialectal, accented, children, and neurodiverse communication.</li>
       </ul>
     </div>
   </section>
