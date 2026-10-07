@@ -15,7 +15,9 @@ description: "Research Scientist at Qatar Computing Research Institute working o
         Dr. Chowdhury specializes in designing Conversational AI models, primarily addressing complex challenges such as
         multispeaker interactions, nuanced multilingual and dialect variations, and code-switching, among various other
         intricate conversational dynamics. She is currently leading the speech technology development in Fanar — QCRI's
-        Arabic Large Language Model project — and serves as the Lead PI on both the NAVIA and QVoice projects.
+        Arabic Large Language Model project — and serves as the Lead PI on QCRI-Aura: Audio Understanding &amp; Representation
+        Alignment along with projects like NAVIA: Neurodiversity Assessment and Voice-enabled Intervention AI and QVoice:
+        Spoken Language Assessment projects.
       </p>
       <div class="hero-actions" aria-label="Profile links">
         <a href="https://scholar.google.com/citations?hl=it&user=LkSfdoAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
